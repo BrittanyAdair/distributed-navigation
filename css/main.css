@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -8,4 +10,16 @@ html {
 
 img {
   width: 2rem;
+}
+
+body {
+  margin: .5rem
+}
+
+header {
+  display: flex;
+  background-color: #e2e2e2;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
