@@ -20,17 +20,17 @@ header {
 }
 
 header h1 {
-
+  padding-right: 10rem;
 }
 
 header img {
   width: 2rem;
+  align-self: auto;
 }
 
 header p {
   font-style: italic;
   font-size: 1.125rem;
-
 }
 
 nav ul {
@@ -41,5 +41,11 @@ nav ul {
 
 nav a {
   padding: .75em 1em .6em;
+  color: #0074d9;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
 
+nav a:hover {
+  color: #fff;
 }
